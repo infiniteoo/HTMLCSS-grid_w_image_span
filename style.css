@@ -17,3 +17,9 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
 }
+.container > div {
+  height: 210px;
+  background: url("bg1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
